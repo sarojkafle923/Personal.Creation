@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\DocuSign.Client.Library\DocuSign.Client.Library.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Models\DocuSign\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Models\DocuSign\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Models\DocuSign\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Models\DocuSign\**" />
+    </ItemGroup>
+
+</Project>

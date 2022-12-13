@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal.Creation", "Personal.Creation\Personal.Creation.csproj", "{80B486C8-C403-4084-B49D-631D2CFE8C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuSign.Client.Library", "DocuSign.Client.Library\DocuSign.Client.Library.csproj", "{27CA3868-A701-4D01-8438-CCB4BEFA569F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B486C8-C403-4084-B49D-631D2CFE8C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B486C8-C403-4084-B49D-631D2CFE8C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B486C8-C403-4084-B49D-631D2CFE8C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B486C8-C403-4084-B49D-631D2CFE8C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CA3868-A701-4D01-8438-CCB4BEFA569F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CA3868-A701-4D01-8438-CCB4BEFA569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CA3868-A701-4D01-8438-CCB4BEFA569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CA3868-A701-4D01-8438-CCB4BEFA569F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
