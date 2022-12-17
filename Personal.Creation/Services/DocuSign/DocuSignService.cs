@@ -61,10 +61,10 @@ public class DocuSignService : IDocuSignService
 
     public async Task<EnvelopeFormData> GetEnvelopeFormData(Login login, string envelopeId)
     {
-        //check and update login detail 
+        //check and update login detail
         var isLoginRequired = userLoginService.IsLoginRequire(login.User);
         var updateLogin = login;
         if (isLoginRequired) updateLogin = DocuSignLogin();
-        return await envelopeFormDataService.GetFormData(login, envelopeId);
+        return await envelopeFormDataService.GetFormData(updateLogin, envelopeId);
     }
 }
